@@ -10,7 +10,7 @@ import javax.swing.table.AbstractTableModel;
  * @author Asep Hikmat
  */
 public class TokoBungaTableModel extends AbstractTableModel{
-    private List<TokoBunga> listTokoBunga = new ArrayList();
+        private List<TokoBunga> listTokoBunga = new ArrayList();
     private final String HEADER[] = {"Kode Bunga","Nama Bunga","Jenis Bunga","Harga Bunga"};
     
     public TokoBungaTableModel(List<TokoBunga> listTokoBunga) {
