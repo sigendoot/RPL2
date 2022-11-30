@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
  * @author Asep Hikmat
  */
 @Service("TokoBungService")
-@Transactional(readOnly = true)
+@Transactional
 public class TokoBungaServiceImpl implements TokoBungaService{
     @Autowired
     private TokoBungaDao tokoBungaDao;
